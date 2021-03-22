@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T12:25:28.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rNDYxe_UFW9NMkyByAQi" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T12:49:38.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="WVq4UKWcSUIAQaBROJxe" version="14.4.9" type="github">
   <diagram id="wxCCux-HpH76NeBq-QPp" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,8 +84,8 @@
         <mxCell id="PUGyFNltvYaZWg6ljdab-21" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="591.5" y="420" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PUGyFNltvYaZWg6ljdab-22" value="Production lines" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="581.5" y="500" width="100" height="20" as="geometry" />
+        <mxCell id="PUGyFNltvYaZWg6ljdab-22" value="Analitics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="601.5" y="500" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PUGyFNltvYaZWg6ljdab-23" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="420" width="70" height="40" as="geometry" />
@@ -96,8 +96,8 @@
         <mxCell id="PUGyFNltvYaZWg6ljdab-25" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="380" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PUGyFNltvYaZWg6ljdab-26" value="Production lines" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="460" width="100" height="20" as="geometry" />
+        <mxCell id="PUGyFNltvYaZWg6ljdab-26" value="Finance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PUGyFNltvYaZWg6ljdab-27" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="460" width="70" height="40" as="geometry" />
@@ -108,8 +108,8 @@
         <mxCell id="PUGyFNltvYaZWg6ljdab-29" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="415" y="420" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PUGyFNltvYaZWg6ljdab-30" value="Production lines" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="500" width="100" height="20" as="geometry" />
+        <mxCell id="PUGyFNltvYaZWg6ljdab-30" value="Logistics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="500" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PUGyFNltvYaZWg6ljdab-31" value="" style="shape=mxgraph.cisco.routers.router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="840" y="283" width="78" height="53" as="geometry" />
@@ -182,6 +182,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="400" as="sourcePoint" />
             <mxPoint x="570" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUGyFNltvYaZWg6ljdab-47" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PUGyFNltvYaZWg6ljdab-48" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="300" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PUGyFNltvYaZWg6ljdab-49" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUGyFNltvYaZWg6ljdab-50" value="Finance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PUGyFNltvYaZWg6ljdab-51" value="" style="endArrow=none;html=1;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PUGyFNltvYaZWg6ljdab-49" target="PUGyFNltvYaZWg6ljdab-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T10:36:09.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="BXvRQC_LK6-gte4_-Fqf" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T10:43:01.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="dk1noKnV3nrxyp6Yf8xc" version="14.7.6" type="github">
   <diagram id="4YEDtbIKKJJVfdXed5sH" name="Page-1">
     <mxGraphModel dx="868" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -63,25 +63,22 @@
         <mxCell id="5HwqyNo6z5pRkI-osSu0-2" value="+ Calculate(Student): decimal" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="ah1xObQ7Yf-4XSCKONiw-27">
           <mxGeometry y="34" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ah1xObQ7Yf-4XSCKONiw-30" value="SearchManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="120" width="290" height="138" as="geometry">
+        <mxCell id="ah1xObQ7Yf-4XSCKONiw-30" value="FinanceDepartment" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="290" height="120" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ah1xObQ7Yf-4XSCKONiw-34" value="- _searchResults: List&lt;Document&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
+        <mxCell id="ah1xObQ7Yf-4XSCKONiw-35" value="+ feeCalculator: ITutionFeeCalculator" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ah1xObQ7Yf-4XSCKONiw-35" value="- _searchStrategy: SearchStrategy" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
-          <mxGeometry y="52" width="290" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="ah1xObQ7Yf-4XSCKONiw-31" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
-          <mxGeometry y="78" width="290" height="8" as="geometry" />
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ah1xObQ7Yf-4XSCKONiw-32" value="+ SetSearchStrategy(SearchStrategy): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
+        <mxCell id="ah1xObQ7Yf-4XSCKONiw-32" value="+ FinanceDepartment(ITutionFeeCalculator): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
+          <mxGeometry y="60" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ah1xObQ7Yf-4XSCKONiw-33" value="+ GetTuitionFee(Student): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
           <mxGeometry y="86" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ah1xObQ7Yf-4XSCKONiw-33" value="+ Search(Document): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="ah1xObQ7Yf-4XSCKONiw-30" vertex="1">
-          <mxGeometry y="112" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ah1xObQ7Yf-4XSCKONiw-36" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.9;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ah1xObQ7Yf-4XSCKONiw-19" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -116,8 +113,8 @@
         </mxCell>
         <mxCell id="ah1xObQ7Yf-4XSCKONiw-42" value="" style="endArrow=open;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;startFill=0;startSize=15;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="244" y="260" as="sourcePoint" />
-            <mxPoint x="244" y="310" as="targetPoint" />
+            <mxPoint x="241" y="241" as="sourcePoint" />
+            <mxPoint x="241" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

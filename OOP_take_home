@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T11:40:06.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="34NoZeHNmEQGQ7bbnlk9" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T11:43:24.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="EFGxVRGKYGoX2CKo42eS" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1695" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="+ GetUniversity(): University" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="112" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ndxgFfgem-07Afp8_X7y-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=1.01;exitY=0.112;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ndxgFfgem-07Afp8_X7y-17" target="ndxgFfgem-07Afp8_X7y-5" edge="1">
+        <mxCell id="ndxgFfgem-07Afp8_X7y-12" value="" style="endArrow=open;endFill=0;endSize=24;html=1;exitX=1.01;exitY=0.112;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ndxgFfgem-07Afp8_X7y-17" target="ndxgFfgem-07Afp8_X7y-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="150" y="87.5" as="sourcePoint" />
             <mxPoint x="471" y="497.98800000000006" as="targetPoint" />
@@ -133,7 +133,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ndxgFfgem-07Afp8_X7y-17" value="Course" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-80" y="40" width="210" height="112" as="geometry">
+          <mxGeometry x="-80" y="40" width="210" height="164" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -143,8 +143,17 @@
         <mxCell id="ndxgFfgem-07Afp8_X7y-25" value="+ Name: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ndxgFfgem-07Afp8_X7y-17" vertex="1">
           <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="8h3hptfVYsRsJPF0idwX-4" value="- Students: List&lt;Student&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ndxgFfgem-07Afp8_X7y-17">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="ndxgFfgem-07Afp8_X7y-18" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ndxgFfgem-07Afp8_X7y-17" vertex="1">
-          <mxGeometry y="78" width="210" height="8" as="geometry" />
+          <mxGeometry y="104" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8h3hptfVYsRsJPF0idwX-5" value="+ GetStudents(): List&lt;Student&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ndxgFfgem-07Afp8_X7y-17">
+          <mxGeometry y="112" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8h3hptfVYsRsJPF0idwX-6" value="+ EnrollStudent(Student): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ndxgFfgem-07Afp8_X7y-17">
+          <mxGeometry y="138" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ndxgFfgem-07Afp8_X7y-26" value="1 ... *" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="290" width="40" height="20" as="geometry" />

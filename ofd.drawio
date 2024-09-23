@@ -145,7 +145,7 @@
         <mxCell id="NtTz9BJ7VQe6Hp9lCEx9-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NtTz9BJ7VQe6Hp9lCEx9-52" target="WIyWlLk6GJQsqaUBKTNV-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtTz9BJ7VQe6Hp9lCEx9-52" value="ofd_noisy_neighbors&lt;div&gt;dan borligi va qaysi sanadan qoshilgani&lt;/div&gt;&lt;div&gt;tekshiriladi&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NtTz9BJ7VQe6Hp9lCEx9-52" value="ofd_noisy_neighbors&lt;div&gt;dan borligi va qaysi sanadan qo&#39;shilgani&lt;/div&gt;&lt;div&gt;tekshiriladi&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-20" y="445" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NtTz9BJ7VQe6Hp9lCEx9-54" value="ofd_{type}_report" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">

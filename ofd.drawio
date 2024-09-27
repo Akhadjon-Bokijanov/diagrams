@@ -356,11 +356,11 @@
         <mxCell id="NtTz9BJ7VQe6Hp9lCEx9-2" value="Ha" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="235" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mQoUU4OzSnEF5bEXAYmP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mQoUU4OzSnEF5bEXAYmP-0" target="NtTz9BJ7VQe6Hp9lCEx9-1" edge="1">
+        <mxCell id="ZeYjNPdl2ooFA2JHQMtb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mQoUU4OzSnEF5bEXAYmP-0" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mQoUU4OzSnEF5bEXAYmP-0" value="terminal_state_id 30 bo&#39;lmagan, (tin,pinfl) bosh, temrinal_id bo&#39;sh" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="45" y="40" width="140" height="90" as="geometry" />
+          <mxGeometry x="110" y="303" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
